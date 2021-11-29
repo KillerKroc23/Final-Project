@@ -7,6 +7,40 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="stars-landscape-night-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-suplq-1080x671.jpg"/>
+        </Grid.Background>
+        <ListView HorizontalAlignment="Left" Height="364" Margin="10,22,0,0" VerticalAlignment="Top" Width="169" Foreground="#FFFCFCFC">
+            <TextBlock Width="140" Height="68">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+
+            </TextBlock>
+
+
+            <ListView.Background>
+                <ImageBrush/>
+            </ListView.Background>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label  Height="70" HorizontalAlignment="Left" Margin="199,22,0,0" Name="label1" VerticalAlignment="Top" Width="518" FontSize="60" FontFamily="Forte" />
+
+        <DataGrid HorizontalAlignment="Left" Height="256" Margin="199,130,0,0" VerticalAlignment="Top" Width="518" RenderTransformOrigin="0.884,0.496" BorderBrush="White">
+            <DataGrid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="0.273"/>
+                </LinearGradientBrush>
+            </DataGrid.Background>
+        </DataGrid>
+
     </Grid>
 </Window>
