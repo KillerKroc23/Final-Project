@@ -29,5 +29,10 @@ namespace Final_Project
         {
 
         }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
