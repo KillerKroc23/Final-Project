@@ -40,6 +40,22 @@
             <Button Content="Social" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="400,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
             </Grid>
             
+            <Viewbox Margin="719,-9,15,348" RenderTransformOrigin="0.5,0.5">
+            <Viewbox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.801"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Viewbox.RenderTransform>
+            <Grid Width="55" Height="35">
+                <Ellipse Stroke="Black" RenderTransformOrigin="0.684,1.845" Margin="4,0,-4,0"/>
+                <TextBlock HorizontalAlignment="Center" Text="5:00pm" TextAlignment="Center" VerticalAlignment="Center" Margin="11,10,5,9"/>
+            </Grid>
+        </Viewbox>
+            
+            
                <Grid>
             <Button Content="New Message" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="37,118,0,0" Name="Message" VerticalAlignment="Top" Width="103" IsEnabled="True"></Button>
             <Button Content="Companies" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,174,0,0" Name="Companies" VerticalAlignment="Top" IsEnabled="True" Width="82"></Button>
