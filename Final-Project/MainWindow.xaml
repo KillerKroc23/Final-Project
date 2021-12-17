@@ -72,7 +72,7 @@
             <ListBoxItem Content="Stewart Mills" IsEnabled="True"></ListBoxItem>
         </ListBox>
         
-    </Grid>
+
          
          </Grid>
 </Window>
