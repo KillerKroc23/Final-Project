@@ -33,6 +33,11 @@
         </ListView>
         <Label  Height="70" HorizontalAlignment="Left" Margin="199,22,0,0" Name="label1" VerticalAlignment="Top" Width="518" FontSize="60" FontFamily="Forte" />
             
+             <Grid>
+            <Button Content="Tasks" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="202,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
+            <Button Content="Reports" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="294,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
+        </Grid>
+            
                <Grid>
             <Button Content="New Message" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="37,118,0,0" Name="Message" VerticalAlignment="Top" Width="103" IsEnabled="True"></Button>
             <Button Content="Report" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,174,0,0" Name="Report" VerticalAlignment="Top" IsEnabled="True" Width="61" RenderTransformOrigin="0.365,1.402"></Button>
