@@ -33,11 +33,13 @@
         </ListView>
         <Label  Height="70" HorizontalAlignment="Left" Margin="199,22,0,0" Name="label1" VerticalAlignment="Top" Width="518" FontSize="60" FontFamily="Forte" />
             
-             <Grid>
-
-            <Button Content="New" Height="34" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,106,0,0" Name="New" VerticalAlignment="Top" IsEnabled="True" Width="61"></Button>
-            <Button Content="Home" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,50,0,0" Name="Home" VerticalAlignment="Top" Width="61" IsEnabled="True"></Button>
+               <Grid>
+            <Button Content="New Message" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="37,118,0,0" Name="Message" VerticalAlignment="Top" Width="103" IsEnabled="True"></Button>
+            <Button Content="Report" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,174,0,0" Name="Report" VerticalAlignment="Top" IsEnabled="True" Width="61" RenderTransformOrigin="0.365,1.402"></Button>
+            <Button Content="Contact List" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,237,0,0" Name="Contacts" VerticalAlignment="Top" Width="82" IsEnabled="True"></Button>
+            <Button Content="Home" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,55,0,0" Name="Home" VerticalAlignment="Top" Width="61" IsEnabled="True"></Button>
         </Grid>
+
 
         <DataGrid HorizontalAlignment="Left" Height="256" Margin="199,130,0,0" VerticalAlignment="Top" Width="518" RenderTransformOrigin="0.884,0.496" BorderBrush="White" SelectionChanged="DataGrid_SelectionChanged">
             <DataGrid.Background>
