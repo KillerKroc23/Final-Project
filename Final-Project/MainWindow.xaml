@@ -32,15 +32,26 @@
             </ListView.View>
         </ListView>
         <Label  Height="70" HorizontalAlignment="Left" Margin="199,22,0,0" Name="label1" VerticalAlignment="Top" Width="518" FontSize="60" FontFamily="Forte" />
+
         <Grid>
             <Button Content="Tasks" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="202,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
             <Button Content="Reports" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="294,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
+            <Button Content="Applications" Background="FloralWhite" HorizontalAlignment="Left" VerticalAlignment="Top" IsEnabled="True" Margin="498,32,0,0" Width="75" Height="34"/>
+            <Button Content="Social" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="400,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
         </Grid>
+
+        <Viewbox Margin="719,-9,15,348">
+            <Grid Width="55" Height="35">
+                <Ellipse Stroke="Black"  Margin="4,0,-4,0"/>
+                <TextBlock HorizontalAlignment="Center" Text="5:00pm" TextAlignment="Center" VerticalAlignment="Center" Margin="11,10,5,9"/>
+            </Grid>
+        </Viewbox>
+
 
         <Grid>
             <Button Content="New Message" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="37,118,0,0" Name="Message" VerticalAlignment="Top" Width="103" IsEnabled="True"></Button>
-            <Button Content="Report" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,174,0,0" Name="Report" VerticalAlignment="Top" IsEnabled="True" Width="61" RenderTransformOrigin="0.365,1.402"></Button>
-            <Button Content="Contact List" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,237,0,0" Name="Contacts" VerticalAlignment="Top" Width="82" IsEnabled="True" Click="Contacts_Click"></Button>
+            <Button Content="Companies" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,174,0,0" Name="Companies" VerticalAlignment="Top" IsEnabled="True" Width="82"></Button>
+            <Button Content="Contact List" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,237,0,0" Name="Contacts" VerticalAlignment="Top" Width="82" IsEnabled="True"></Button>
             <Button Content="Home" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,55,0,0" Name="Home" VerticalAlignment="Top" Width="61" IsEnabled="True"></Button>
         </Grid>
 
@@ -50,6 +61,6 @@
                 <ImageBrush/>
             </DataGrid.Background>
         </DataGrid>
-
+        <Button Content="Button" Background="FloralWhite" HorizontalAlignment="Left" Margin="211,141,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
