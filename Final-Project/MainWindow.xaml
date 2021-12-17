@@ -61,6 +61,6 @@
                 <ImageBrush/>
             </DataGrid.Background>
         </DataGrid>
-
+<Button Content="Button" Background="FloralWhite" HorizontalAlignment="Left" Margin="211,141,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
