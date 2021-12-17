@@ -11,6 +11,15 @@
             <ImageBrush ImageSource="stars-landscape-night-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-suplq-1080x671.jpg"/>
         </Grid.Background>
         <ListView HorizontalAlignment="Left" Height="364" Margin="10,22,0,0" VerticalAlignment="Top" Width="169" Foreground="#FFFCFCFC">
+            <TextBlock Width="140" Height="329">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+
+            </TextBlock>
 
 
             <ListView.Background>
@@ -21,15 +30,20 @@
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
-            <Label Content="Contact Manager"  Background="#FFE7D4D4" Height="25" Width="100"/>
         </ListView>
         <Label  Height="70" HorizontalAlignment="Left" Margin="199,22,0,0" Name="label1" VerticalAlignment="Top" Width="518" FontSize="60" FontFamily="Forte" />
-            
-             <Grid>
-
-            <Button Content="New" Height="34" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,106,0,0" Name="New" VerticalAlignment="Top" IsEnabled="True" Width="61"></Button>
-            <Button Content="Home" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,50,0,0" Name="Home" VerticalAlignment="Top" Width="61" IsEnabled="True" Click="Home_Click"></Button>
+        <Grid>
+            <Button Content="Tasks" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="202,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
+            <Button Content="Reports" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="294,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
         </Grid>
+
+        <Grid>
+            <Button Content="New Message" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="37,118,0,0" Name="Message" VerticalAlignment="Top" Width="103" IsEnabled="True"></Button>
+            <Button Content="Report" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,174,0,0" Name="Report" VerticalAlignment="Top" IsEnabled="True" Width="61" RenderTransformOrigin="0.365,1.402"></Button>
+            <Button Content="Contact List" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,237,0,0" Name="Contacts" VerticalAlignment="Top" Width="82" IsEnabled="True" Click="Contacts_Click"></Button>
+            <Button Content="Home" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,55,0,0" Name="Home" VerticalAlignment="Top" Width="61" IsEnabled="True"></Button>
+        </Grid>
+
 
         <DataGrid HorizontalAlignment="Left" Height="256" Margin="199,130,0,0" VerticalAlignment="Top" Width="518" RenderTransformOrigin="0.884,0.496" BorderBrush="White" SelectionChanged="DataGrid_SelectionChanged">
             <DataGrid.Background>

@@ -34,5 +34,10 @@ namespace Final_Project
         {
 
         }
+
+        private void Contacts_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
