@@ -25,24 +25,5 @@ namespace Final_Project
             InitializeComponent();
         }
 
-        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void Home_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Contacts_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
