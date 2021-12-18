@@ -81,13 +81,13 @@
                 <ImageBrush/>
             </DataGrid.Background>
         </DataGrid>
-        <Label x:Name="Label" Content="Contacts"  Height="83" Background="FloralWhite" HorizontalAlignment="Left" Margin="199,22,0,0" VerticalAlignment="Top" Width="566" FontSize="50" FontWeight="Bold" FontFamily="Lucida Calligraphy" />
+        <Label x:Name="Label" Content="Contacts"  Height="83" Background="FloralWhite" Margin="199,22,0,0" VerticalAlignment="Top" Width="566" FontSize="50" FontWeight="Bold" FontFamily="Lucida Calligraphy" HorizontalAlignment="Left" />
 
         <ListBox Margin="199,130,0,0" Background="#FFA2A09A" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="566" Height="256" SelectionChanged="listBox1_SelectionChanged">
-            <ListBoxItem Content="Sarah Brown" IsEnabled="True"></ListBoxItem>
-            <ListBoxItem Content="Sean Edwards" IsEnabled="True"></ListBoxItem>
-            <ListBoxItem Content="William Jackson" IsEnabled="True"></ListBoxItem>
-            <ListBoxItem Content="Stewart Mills" IsEnabled="True"></ListBoxItem>
+            <ListBoxItem Content="1. Sarah Brown     |  514-945-7789  |   SarahBrown@gmail.com" IsEnabled="True"></ListBoxItem>
+            <ListBoxItem Content="2. Sean Edwards    |  514-459-7862  |   SeanEdwards@gmail.com" IsEnabled="True"></ListBoxItem>
+            <ListBoxItem Content="3. William Jackson |  514-847-5645  |   WilliamJackson@gmail.com" IsEnabled="True"></ListBoxItem>
+            <ListBoxItem Content="3. Stewart Mills   |  514-549-7668  |   StewartMillis@gmail.com" IsEnabled="True"></ListBoxItem>
         </ListBox>
 
 

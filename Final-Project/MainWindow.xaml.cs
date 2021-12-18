@@ -25,22 +25,20 @@ namespace Final_Project
             InitializeComponent();
         }
 
-        private void OnClick_Edit(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void OnClick_ContactList(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void OnClick_Connect(object sender, RoutedEventArgs e)
         {
-
+            InitializeComponent();
+            Home loginPage = new LoginPage();
+            Pagew dFrame.NavigationService.Navigate(loginPage);
         }
 
         private void OnClick_Add(object sender, RoutedEventArgs e)
+        {
+            newId frm = new NewClient();
+            frm.Show();
+        }
+
+        private void OnClick_Delete(object sender, RoutedEventArgs e)
         {
 
         }
@@ -50,7 +48,12 @@ namespace Final_Project
 
         }
 
-        private void OnClick_Delete(object sender, RoutedEventArgs e)
+        private void OnClick_Edit(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnClick_ContactList(object sender, RoutedEventArgs e)
         {
 
         }
