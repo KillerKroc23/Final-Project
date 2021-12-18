@@ -63,11 +63,10 @@
             </DataGrid.Background>
         </DataGrid>
  <Label Content="Today's Activities..."  Height="28" Background="FloralWhite" HorizontalAlignment="Left" Margin="198,96,0,0" VerticalAlignment="Top"/>
-     <Label Content="Today's Activites..."  Height="28" Background="FloralWhite" HorizontalAlignment="Left" Margin="198,93,0,0" VerticalAlignment="Top"/>
-      
+    
         <ListBox Margin="199,130,0,0" Background="FloralWhite" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="566" Height="256">
             <ListBoxItem Content="Sarah Brown" IsEnabled="True"></ListBoxItem>
-            <ListBoxItem Content="Sean Edwards" IsEnabled="True"></ListBoxItem>
+            <ListBoxItem Content="Shawn Edwards" IsEnabled="True"></ListBoxItem>
             <ListBoxItem Content="William Jackson" IsEnabled="True"></ListBoxItem>
             <ListBoxItem Content="Stewart Mills" IsEnabled="True"></ListBoxItem>
         </ListBox>
