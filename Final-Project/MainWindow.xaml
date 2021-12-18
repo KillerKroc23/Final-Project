@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Final_Project"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
@@ -31,15 +30,8 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Label  Height="70" HorizontalAlignment="Left" Margin="199,22,0,0" Name="label1" VerticalAlignment="Top" Width="518" FontSize="60" FontFamily="Forte" />
 
-        <Grid>
-            <Button Content="Tasks" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="202,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
-            <Button Content="Reports" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="294,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
-            <Button Content="Applications" Background="FloralWhite" HorizontalAlignment="Left" VerticalAlignment="Top" IsEnabled="True" Margin="498,32,0,0" Width="75" Height="34"/>
-            <Button Content="Settings" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="596,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
-            <Button Content="Social" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="400,32,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
-        </Grid>
+        <Grid/>
 
         <Viewbox Margin="719,-9,15,348">
             <Grid Width="55" Height="35">
@@ -51,9 +43,12 @@
 
         <Grid>
 
-            <Button Content="Companies" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,174,0,0" Name="Companies" VerticalAlignment="Top" IsEnabled="True" Width="82"></Button>
-            <Button Content="Contact List" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,237,0,0" Name="Contacts" VerticalAlignment="Top" Width="82" IsEnabled="True"></Button>
+            <Button Content="Companies" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,258,0,0" Name="Companies" VerticalAlignment="Top" IsEnabled="True" Width="82"></Button>
+            <Button Content="Contact List" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,325,0,0" Name="Contacts" VerticalAlignment="Top" Width="82" IsEnabled="True"></Button>
             <Button Content="Home" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="58,55,0,0" Name="Home" VerticalAlignment="Top" Width="61" IsEnabled="True"></Button>
+            <Button Content="Add" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="51,115,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
+            <Button Content="View " Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="48,202,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
+            <Button Content="Delete" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="51,159,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="Button_Click"/>
         </Grid>
 
 
