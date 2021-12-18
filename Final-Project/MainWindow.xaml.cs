@@ -25,5 +25,34 @@ namespace Final_Project
             InitializeComponent();
         }
 
+        private void OnClick_Edit(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnClick_ContactList(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnClick_Connect(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnClick_Add(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnClick_View(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnClick_Delete(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

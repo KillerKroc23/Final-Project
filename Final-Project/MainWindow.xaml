@@ -43,32 +43,32 @@
 
         <Grid>
 
-            <Button Content="Edit" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,272,0,0" Name="Companies" VerticalAlignment="Top" IsEnabled="True" Width="82">
+            <Button Content="Edit" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,272,0,0" x:Name="Edit" VerticalAlignment="Top" IsEnabled="True" Width="82" Click="OnClick_Edit">
                 <Button.Effect>
                     <DropShadowEffect Color="White"/>
                 </Button.Effect>
             </Button>
-            <Button Content="Contact List" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,325,0,0" Name="Contacts" VerticalAlignment="Top" Width="82" IsEnabled="True">
+            <Button Content="Contact List" Height="38" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,325,0,0" x:Name="ContactList" VerticalAlignment="Top" Width="82" IsEnabled="True" Click="OnClick_ContactList">
                 <Button.Effect>
                     <DropShadowEffect Color="White"/>
                 </Button.Effect>
             </Button>
-            <Button Content="Home" Height="38" HorizontalAlignment="Left" Margin="51,55,0,0" Name="Home" VerticalAlignment="Top" Width="77" IsEnabled="True" Background="FloralWhite">
+            <Button Content="Home" Height="38" HorizontalAlignment="Left" Margin="51,55,0,0" Name="Home" VerticalAlignment="Top" Width="77" IsEnabled="True" Background="FloralWhite" Click="OnClick_Connect">
                 <Button.Effect>
                     <DropShadowEffect Color="White"/>
                 </Button.Effect>
             </Button>
-            <Button Content="Add" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="51,115,0,0" VerticalAlignment="Top" Width="75" Height="34">
+            <Button x:Name="Add" Content="Add" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="51,115,0,0" VerticalAlignment="Top" Width="75" Height="34" Click="OnClick_Add">
                 <Button.Effect>
                     <DropShadowEffect Color="White"/>
                 </Button.Effect>
             </Button>
-            <Button Content="View " Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="51,218,0,0" VerticalAlignment="Top" Width="77" Height="34">
+            <Button x:Name="View" Content="View " Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="51,218,0,0" VerticalAlignment="Top" Width="77" Height="34" Click="OnClick_View">
                 <Button.Effect>
                     <DropShadowEffect Color="White"/>
                 </Button.Effect>
             </Button>
-            <Button Content="Delete" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="51,168,0,0" VerticalAlignment="Top" Width="77" Height="34" Click="Button_Click">
+            <Button x:Name="Delete" Content="Delete" Background="FloralWhite" HorizontalAlignment="Left" IsEnabled="True" Margin="51,168,0,0" VerticalAlignment="Top" Width="77" Height="34" Click="OnClick_Delete">
                 <Button.Effect>
                     <DropShadowEffect Color="White"/>
                 </Button.Effect>
@@ -81,8 +81,7 @@
                 <ImageBrush/>
             </DataGrid.Background>
         </DataGrid>
-        <Label Content="Today's Activities..."  Height="28" Background="FloralWhite" HorizontalAlignment="Left" Margin="198,96,0,0" VerticalAlignment="Top"/>
-        <Label Content="Today's Activites..."  Height="28" Background="FloralWhite" HorizontalAlignment="Left" Margin="198,93,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label" Content="Contacts"  Height="83" Background="FloralWhite" HorizontalAlignment="Left" Margin="199,22,0,0" VerticalAlignment="Top" Width="566" FontSize="50" FontWeight="Bold" FontFamily="Lucida Calligraphy" />
 
         <ListBox Margin="199,130,0,0" Background="#FFA2A09A" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="566" Height="256" SelectionChanged="listBox1_SelectionChanged">
             <ListBoxItem Content="Sarah Brown" IsEnabled="True"></ListBoxItem>
