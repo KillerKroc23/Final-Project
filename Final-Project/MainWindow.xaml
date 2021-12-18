@@ -6,10 +6,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="757*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="stars-landscape-night-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-suplq-1080x671.jpg"/>
         </Grid.Background>
-        <ListView HorizontalAlignment="Left" Height="364" Margin="10,22,0,0" VerticalAlignment="Top" Width="169" Foreground="#FFFCFCFC">
+        <ListView HorizontalAlignment="Left" Height="364" Margin="10,22,0,0" VerticalAlignment="Top" Width="169" Foreground="#FFFCFCFC" Grid.ColumnSpan="2">
             <TextBlock Width="140" Height="329">
                 <TextBlock.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -31,9 +35,9 @@
             </ListView.View>
         </ListView>
 
-        <Grid/>
+        <Grid Grid.ColumnSpan="2" Margin="0,0,-0.4,0"/>
 
-        <Viewbox Margin="719,-9,15,348">
+        <Viewbox Margin="682.2,-9,14.6,348" Grid.Column="1">
             <Grid Width="55" Height="35">
                 <Ellipse Stroke="Black"  Margin="4,0,-4,0"/>
                 <TextBlock HorizontalAlignment="Center" Text="5:00pm" TextAlignment="Center" VerticalAlignment="Center" Margin="11,10,5,9"/>
@@ -41,7 +45,7 @@
         </Viewbox>
 
 
-        <Grid>
+        <Grid Grid.ColumnSpan="2" Margin="0,0,-0.4,0">
 
             <Button Content="Edit" Height="35" Background="FloralWhite" HorizontalAlignment="Left" Margin="46,272,0,0" x:Name="Edit" VerticalAlignment="Top" IsEnabled="True" Width="82" Click="OnClick_Edit">
                 <Button.Effect>
@@ -76,14 +80,14 @@
         </Grid>
 
 
-        <DataGrid HorizontalAlignment="Left" Height="256" Margin="199,130,0,0" VerticalAlignment="Top" Width="518" RenderTransformOrigin="0.884,0.496" BorderBrush="White" SelectionChanged="DataGrid_SelectionChanged">
+        <DataGrid HorizontalAlignment="Left" Height="256" Margin="162.2,130,0,0" VerticalAlignment="Top" Width="518" RenderTransformOrigin="0.884,0.496" BorderBrush="White" SelectionChanged="DataGrid_SelectionChanged" Grid.Column="1">
             <DataGrid.Background>
                 <ImageBrush/>
             </DataGrid.Background>
         </DataGrid>
-        <Label x:Name="Label" Content="Contacts"  Height="83" Background="FloralWhite" Margin="199,22,0,0" VerticalAlignment="Top" Width="566" FontSize="50" FontWeight="Bold" FontFamily="Lucida Calligraphy" HorizontalAlignment="Left" />
+        <Label x:Name="Label" Content="Contacts"  Height="83" Background="FloralWhite" Margin="162.2,22,0,0" VerticalAlignment="Top" Width="566" FontSize="50" FontWeight="Bold" FontFamily="Lucida Calligraphy" HorizontalAlignment="Left" Grid.Column="1" />
 
-        <ListBox Margin="199,130,0,0" Background="#FFA2A09A" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="566" Height="256" SelectionChanged="listBox1_SelectionChanged">
+        <ListBox Margin="162.2,130,0,0" Background="#FFA2A09A" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="566" Height="256" SelectionChanged="listBox1_SelectionChanged" Grid.Column="1">
             <ListBoxItem Content="1. Sarah Brown     |  514-945-7789  |   SarahBrown@gmail.com" IsEnabled="True"></ListBoxItem>
             <ListBoxItem Content="2. Sean Edwards    |  514-459-7862  |   SeanEdwards@gmail.com" IsEnabled="True"></ListBoxItem>
             <ListBoxItem Content="3. William Jackson |  514-847-5645  |   WilliamJackson@gmail.com" IsEnabled="True"></ListBoxItem>
